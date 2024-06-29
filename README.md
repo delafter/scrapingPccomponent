@@ -15,17 +15,17 @@ Asegúrate de tener Node.js y npm instalados en tu sistema
 
 # Uso
 
-1. Ejecuta el script principal para iniciar el scraping:
+1.Ejecuta el script principal para iniciar el scraping:
 
 `npm run start`
 
-2. Este comando abrirá una instancia de Chrome controlada por Puppeteer, navegará hasta la página de PC Componentes, extraerá los datos de los productos en oferta y los guardará en un archivo CSV llamado scraperPccomponent.csv
+2.Este comando abrirá una instancia de Chrome controlada por Puppeteer, navegará hasta la página de PC Componentes, extraerá los datos de los productos en oferta y los guardará en un archivo CSV llamado scraperPccomponent.csv
 
 Revisa la consola para ver los productos encontrados junto con sus enlaces correspondientes
 
 ## Créditos
 
-Este proyecto fue desarrollado por Tu `Manu García`
+Este proyecto fue desarrollado por `Manu García`
 
 ## Contacto
 Si tienes preguntas o sugerencias, no dudes en contactarme por email a `delafter@gmail.com` o a través de mi perfil de GitHub
