@@ -10,16 +10,11 @@ const fs = require("fs");
       waitUntil: "domcontentloaded",
     });
     await page.waitForSelector("#cookiesAcceptAll", { timeout: 30000 });
-   
-    
-    
+
     await page.waitForSelector("#modulo_ofertas_semana h3", { timeout: 12000 });
     await page.waitForSelector("#modulo_ofertas_semana a", { timeout: 12000 });
-    
 
-    await page.click("#cookiesAcceptAll", { delay: 100 }); 
-     
-  
+    await page.click("#cookiesAcceptAll", { delay: 100 });
 
     const products = await page.evaluate(() => {
       const productNodes = Array.from(
@@ -34,10 +29,7 @@ const fs = require("fs");
         Enlace: linkNodes[index].href,
       }));
     });
-    
 
-   
-   
     console.log("Productos y enlaces:");
     products.forEach((product) => {
       console.log(`${product.Producto}: ${product.Enlace}`);
